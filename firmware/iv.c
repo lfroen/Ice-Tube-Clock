@@ -1714,7 +1714,7 @@ void getgpstime(void) {
 
   uint8_t intOldHr = 0;
   uint8_t intOldMin = 0;
-  uint8_t intOldSec = 0;
+  //uint8_t intOldSec = 0;
 
   char charReceived = UDR0;
 
@@ -1805,7 +1805,7 @@ void getgpstime(void) {
           //Get the 'old' values of the time:
           intOldHr = time_h;
           intOldMin = time_m;
-          intOldSec = time_s;
+          //intOldSec = time_s;
 
           //Change the time:
           setgpstime(strTime);
