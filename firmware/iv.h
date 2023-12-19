@@ -203,4 +203,3 @@ void setgpsdate(char* str);
 #define DIG_8 7
 #define DIG_9 3
 
-#define nop asm("nop")
